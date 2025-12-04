@@ -1,0 +1,154 @@
+FileVersion = 1
+LastConfig = "Debug"
+LastPlatform = "Win64"
+RecentFilesList = ["src\\JoltRaylib.bf", "src\\Program.bf", "src\\joltc.bf", "src\\Library.bf", "Disassembly"]
+
+[MainWindow]
+X = 0
+Y = 148
+Width = 1178
+Height = 884
+ShowKind = "ShowMaximized"
+
+[MainDockingFrame]
+Type = "DockingFrame"
+SplitType = 2
+
+[[MainDockingFrame.DockedWidgets]]
+RequestedWidth = 350.0
+RequestedHeight = 834.0
+SizePriority = 834.0
+Type = "DockingFrame"
+SplitType = 1
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets]]
+RequestedWidth = 152.0
+RequestedHeight = 200.0
+Type = "TabbedView"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
+Active = true
+TabLabel = "Workspace"
+TabWidth = 111.7023
+TabIsPinned = false
+Type = "ProjectPanel"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets]]
+IsFillWidget = true
+Permanent = true
+RequestedWidth = 1286.24
+RequestedHeight = 695.76
+SizePriority = 1286.24
+DefaultDocumentsTabbedView = true
+Type = "TabbedView"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
+TabLabel = "Program.bf"
+TabWidth = 92.76612
+TabIsPinned = false
+Type = "SourceViewPanel"
+FilePath = "src\\Program.bf"
+CursorPos = 83
+ProjectName = "Jolt"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
+TabLabel = "joltc.bf"
+TabWidth = 69.3618
+TabIsPinned = false
+Type = "SourceViewPanel"
+FilePath = "src\\joltc.bf"
+CursorPos = 10056
+VertPos = 9139.0
+ProjectName = "Jolt"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
+TabLabel = "Library.bf"
+TabWidth = 83.19163
+TabIsPinned = false
+Type = "SourceViewPanel"
+FilePath = "src\\Library.bf"
+CursorPos = 162
+ProjectName = "Jolt"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
+Active = true
+TabLabel = "JoltRaylib.bf"
+TabWidth = 98.08528
+TabIsPinned = false
+Type = "SourceViewPanel"
+FilePath = "src\\JoltRaylib.bf"
+ProjectName = "Jolt"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets]]
+RequestedWidth = 271.0
+RequestedHeight = 194.0
+Type = "TabbedView"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
+TabLabel = "Autocomplete"
+TabWidth = 129.7874
+TabIsPinned = false
+Type = "AutoCompletePanel"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
+Active = true
+TabLabel = "Call Stack"
+TabWidth = 103.1916
+TabIsPinned = false
+Type = "CallStackPanel"
+
+[[MainDockingFrame.DockedWidgets]]
+RequestedWidth = 1920.0
+RequestedHeight = 328.0
+Type = "TabbedView"
+
+[[MainDockingFrame.DockedWidgets.Tabs]]
+Active = true
+TabLabel = "Output"
+TabWidth = 90.42564
+TabIsPinned = false
+Type = "OutputPanel"
+
+[[MainDockingFrame.DockedWidgets.Tabs]]
+TabLabel = "Immediate"
+TabWidth = 108.5108
+TabIsPinned = false
+Type = "ImmediatePanel"
+
+[[MainDockingFrame.DockedWidgets.Tabs]]
+TabLabel = "Watch"
+TabWidth = 86.17031
+TabIsPinned = false
+Type = "WatchPanel"
+Columns = [{Width = 160.0}, {Width = 388.0}, {Width = 160.0}]
+
+[[MainDockingFrame.DockedWidgets.Tabs]]
+TabLabel = "Auto Watches"
+TabWidth = 128.7236
+TabIsPinned = false
+Type = "AutoWatchPanel"
+Columns = [{Width = 160.0}, {Width = 160.0}, {Width = 160.0}]
+
+[[MainDockingFrame.DockedWidgets.Tabs]]
+TabLabel = "Find Results"
+TabWidth = 117.0215
+TabIsPinned = false
+Type = "FindResultsPanel"
+
+[[MainDockingFrame.DockedWidgets.Tabs]]
+TabLabel = "Errors"
+TabWidth = 81.91499
+TabIsPinned = false
+Type = "ErrorsPanel"
+
+[[BookmarkFolders]]
+Title = ""
+
+[OutputFilters]
+ModuleLoadMessages = false
+ModuleUnloadMessages = false
+ProcessExitMessages = false
+ThreadCreateMessages = false
+ThreadExitMessages = false
+SymbolLoadMessages = false
+ProgramOutput = false

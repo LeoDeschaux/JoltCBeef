@@ -1,0 +1,10 @@
+FileVersion = 1
+Dependencies = {corlib = "*", raylib-beef = "*"}
+
+[Project]
+Name = "Jolt"
+StartupObject = "Jolt.Program"
+
+[Configs.Debug.Win64]
+OtherLinkFlags = "$(LinkFlags) /NODEFAULTLIB:library"
+LibPaths = ["$(ProjectDir)/lib/$(Platform)/joltcd.lib", "$(ProjectDir)/lib/$(Platform)/joltd.lib"]
