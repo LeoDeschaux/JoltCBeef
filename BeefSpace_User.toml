@@ -1,7 +1,7 @@
 FileVersion = 1
 LastConfig = "Debug"
 LastPlatform = "Win64"
-RecentFilesList = ["src\\JoltRaylib.bf", "src\\Program.bf", "src\\joltc.bf", "src\\Library.bf", "Disassembly"]
+RecentFilesList = ["src\\JoltImpl.bf", "src\\Program.bf", "Disassembly"]
 
 [MainWindow]
 X = 0
@@ -48,35 +48,17 @@ TabWidth = 92.76612
 TabIsPinned = false
 Type = "SourceViewPanel"
 FilePath = "src\\Program.bf"
-CursorPos = 83
-ProjectName = "Jolt"
-
-[[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
-TabLabel = "joltc.bf"
-TabWidth = 69.3618
-TabIsPinned = false
-Type = "SourceViewPanel"
-FilePath = "src\\joltc.bf"
-CursorPos = 10056
-VertPos = 9139.0
-ProjectName = "Jolt"
-
-[[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
-TabLabel = "Library.bf"
-TabWidth = 83.19163
-TabIsPinned = false
-Type = "SourceViewPanel"
-FilePath = "src\\Library.bf"
-CursorPos = 162
+CursorPos = 274
 ProjectName = "Jolt"
 
 [[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
 Active = true
-TabLabel = "JoltRaylib.bf"
-TabWidth = 98.08528
+TabLabel = "JoltImpl.bf"
+TabWidth = 97.8726
 TabIsPinned = false
 Type = "SourceViewPanel"
-FilePath = "src\\JoltRaylib.bf"
+FilePath = "src\\JoltImpl.bf"
+CursorPos = 305
 ProjectName = "Jolt"
 
 [[MainDockingFrame.DockedWidgets.DockedWidgets]]
